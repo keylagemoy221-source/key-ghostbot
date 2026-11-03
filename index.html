@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<title>KEY GhostBot</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GhostBot HD - Bot Status WA HD & Ghost Mode</title>
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#00ff00">
 <style>
-body { background: #000; color: #0f0; font-family: monospace; text-align: center; padding: 50px; }
-h1 { font-size: 40px; }
-p { color: #fff; }
-a { color: #0f0; border: 1px solid #0f0; padding: 10px; text-decoration: none; }
+body{font-family:sans-serif;background:#0f0f0f;color:white;text-align:center;padding:20px}
+.card{background:#1e1e1e;padding:20px;border-radius:16px;max-width:400px;margin:auto;box-shadow:0 4px 20px rgba(0,255,0,0.2)}
+input{width:90%;padding:12px;border-radius:10px;border:none;margin:10px 0;font-size:16px}
+button{background:#00ff88;color:#000;padding:12px 20px;border:none;border-radius:10px;font-weight:bold;font-size:16px;cursor:pointer;width:100%}
 </style>
 </head>
 <body>
-<h1>👻 KEY-GHOSTBOT</h1>
-<h2>Status: ONLINE & READY</h2>
-<p>Bot berhasil di-deploy di Vercel!</p>
-<p>Domain: key-ghostbot-one.vercel.app</p>
-<br><br>
-<a href="https://github.com/keylagemoy221-source/key-ghostbot">Lihat Github</a>
+<div class="card">
+<h2>👻 GhostBot HD</h2>
+<p>Lihat Status WA Tanpa Ketahuan & Download Kualitas HD</p>
+<input id="nomor" type="text" placeholder="Masukkan Nomor WA (cth: 62812xxxx)">
+<button onclick="alert('Mode Hantu Aktif! Mengintip '+document.getElementById('nomor').value)">👀 Lihat Status (Mode Hantu)</button>
+<button style="margin-top:10px;background:#fff;" onclick="alert('Download HD dimulai!')">⬇️ Download HD SW</button>
+<p style="font-size:12px;color:#aaa;margin-top:10px">✅ Hasil HD Tidak Burik<br>✅ Tidak Terlihat di Penonton<br>✅ Gratis & Aman</p>
+</div>
 </body>
 </html>
